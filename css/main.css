@@ -7,12 +7,12 @@
 html {
   height:100%;
 }
+
 body {
   font-family: 'Fjalla One', sans-serif;
   line-height:36px;
   vertical-align:middle;
   text-align:center;
-  padding-top:20px;
 
   /* IE10 Consumer Preview */ 
   background-image: -ms-radial-gradient(center, circle farthest-corner, #B01220 0%, #5F0413 100%);
@@ -32,7 +32,7 @@ body {
   /* W3C Markup, IE10 Release Preview */ 
   background-image: radial-gradient(circle farthest-corner at center, #B01220 0%, #5F0413 100%);
 
-  min-height:100%;
+
 }
 
 .bottom-image {
@@ -47,7 +47,7 @@ body {
 h1 {
   line-height:64px;
   font-size:64px;
-  margin:0 0 20px 0;
+  margin:20px 0 20px 0;
   color:#FFFFFF;
 }
 
