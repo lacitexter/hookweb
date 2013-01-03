@@ -4,16 +4,65 @@
    Author's custom styles
    ========================================================================== */
 
+html {
+  height:100%;
+}
+body {
+  font-family: 'Fjalla One', sans-serif;
+  line-height:64px;
+  vertical-align:middle;
+  text-align:center;
+  padding-top:20px;
 
+  /* IE10 Consumer Preview */ 
+  background-image: -ms-radial-gradient(center, circle farthest-corner, #B01220 0%, #5F0413 100%);
 
+  /* Mozilla Firefox */ 
+  background-image: -moz-radial-gradient(center, circle farthest-corner, #B01220 0%, #5F0413 100%);
 
+  /* Opera */ 
+  background-image: -o-radial-gradient(center, circle farthest-corner, #B01220 0%, #5F0413 100%);
 
+  /* Webkit (Safari/Chrome 10) */ 
+  background-image: -webkit-gradient(radial, center center, 0, center center, 447, color-stop(0, #B01220), color-stop(1, #5F0413));
 
+  /* Webkit (Chrome 11+) */ 
+  background-image: -webkit-radial-gradient(center, circle farthest-corner, #B01220 0%, #5F0413 100%);
 
+  /* W3C Markup, IE10 Release Preview */ 
+  background-image: radial-gradient(circle farthest-corner at center, #B01220 0%, #5F0413 100%);
 
+  min-height:100%;
+}
 
+.top-image {
+  margin-bottom:20px;
+}
 
+h1 {
+  line-height:64px;
+  font-size:64px;
+  margin:0px 0 0px;
+  color:#FFFFFF;
+}
 
+h1 span {
+  color:#5F0413; 
+}
+
+a {
+  text-decoration:none;
+  color:#5F0413;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration:none;
+  color:#FFFFFF
+}
 
 
 
