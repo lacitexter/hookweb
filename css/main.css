@@ -64,17 +64,6 @@ a:hover {
   color:#5F0413;
 }
 
-.footer {
-  position: absolute;
-  bottom:0px;
-  width:100%;
-  text-align:center;
-  margin-top: -150px; /* negative value of footer height */
-  height: 150px;
-  clear:both;
-  padding-top:20px;
-  font-size:12px;
-} 
 
 
 
