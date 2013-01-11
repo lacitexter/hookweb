@@ -60,6 +60,7 @@ a {
 }
 
 a:hover {
+   text-shadow: 0 0 5px rgba(255, 255, 255, 1), 0 0 1px rgba(255, 255, 255, 1);
   text-decoration:none;
   color:#5F0413;
 }
